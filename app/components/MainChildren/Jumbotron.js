@@ -7,8 +7,8 @@ var Jumbotron = React.createClass({
 
 		return(
 			<div className="jumbotron">
-				<h2 className="text-center"><strong>(ReactJS) New York Times Article Scrubber</strong></h2>
-				<h3 className="text-center">Search for and save articles of interest.</h3>
+				<h2 className="text-center"><strong>New York Times Article Search with ReactJS</strong></h2>
+				<h3 className="text-center">Search for and save articles.</h3>
 			</div>
 		)
 	}
