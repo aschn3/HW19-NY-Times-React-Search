@@ -56,7 +56,7 @@ app.post('/api/saved', require('./routes/postSaved'));
 app.delete('/api/saved/:id', require('./routes/deleteSaved'));
 
 
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 
 app.listen(PORT, function(error) {
   if (error) throw error;
